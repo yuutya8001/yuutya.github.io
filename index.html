@@ -50,6 +50,12 @@
       .hero-img{width:100%;height:200px}
       .gallery{grid-template-columns:repeat(2,1fr)}
     }
+    .hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
   </style>
 </head>
 
@@ -72,17 +78,20 @@
   <main>
 
     <!-- ◆韓国料理 対策済みキャッチコピー -->
-    <section class="hero">
-      <div class="hero-row">
-        <div>
-          <h1 style="margin:0;font-size:28px;font-weight:900">石山で本格韓国料理を楽しむなら。</h1>
-          <p class="muted">名物テジカルビ・ヤンニョムチキン・キムチチゲなど、本場の韓国料理をカジュアルに楽しめる韓国料理店です。</p>
-        </div>
-        <div class="hero-img">
-  <img src="images/hero-korean.jpg" alt="韓国料理 キンパ・サムギョプサル・焼酎">
-</div>
-      </div>
-    </section>
+   <section class="hero">
+  <div class="hero-row">
+    <div>
+      <h1 style="margin:0;font-size:28px;font-weight:900">石山で本格韓国料理を楽しむなら。</h1>
+      <p class="muted">名物テジカルビ・ヤンニョムチキン・キムチチゲなど、本場の韓国料理をカジュアルに楽しめる韓国料理店です。</p>
+    </div>
+
+    <div class="hero-img">
+      
+      <img src="images/hero-korean.jpg" alt="韓国料理 キンパ・サムギョプサル・焼酎">
+    </div>
+
+  </div>
+</section>
 
     <!-- 重要情報 -->
     <section class="cards">
@@ -160,4 +169,5 @@
 </body>
 
 </html>
+
 
